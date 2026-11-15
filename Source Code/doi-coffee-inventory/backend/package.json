@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.21.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "msnodesqlv8": "^6.2.2",
+    "mssql": "^12.7.14",
+    "node-cron": "^4.6.0",
+    "nodemailer": "^10.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "allowScripts": {
+    "msnodesqlv8@6.2.2": true
+  }
+}
